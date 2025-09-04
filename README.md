@@ -1,5 +1,5 @@
 
-# documentary
+# meetings
 
 서울대학교 중앙 컴퓨터 연구회 SCSC 운영 회의 기록 레포지토리
 
