@@ -1,0 +1,4 @@
+# Force LF in repo and working tree for text files
+* text=auto eol=lf
+*.md text eol=lf
+*.txt text eol=lf
