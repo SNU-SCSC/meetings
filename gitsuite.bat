@@ -37,10 +37,11 @@ if errorlevel 1 (
 )
 
 rem Push decision
-set /p _push=Push now? (y/t/1 to push): 
+set /p _push="Push now? [Y/n]: "
 if /I "%_push%"=="y" goto do_push
 if /I "%_push%"=="t" goto do_push
 if "%_push%"=="1" goto do_push
+if "%_push%"=="" goto do_push
 
 echo Done (commit only).
 exit /b 0
